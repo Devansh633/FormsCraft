@@ -2,7 +2,7 @@
   "name": "FormsCraft",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://146.190.158.50:8080",
+ 
   "dependencies": {
     "@supabase/supabase-js": "^2.22.0",
     "@testing-library/jest-dom": "^5.16.5",

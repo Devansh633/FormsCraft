@@ -176,7 +176,7 @@ export const GenerateFormAi = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res: any = await fetch("/api/premium/form-ai", {
+      const res = await fetch("http://146.190.158.50:8080/api/premium/form-ai", {
         method: "POST",
         body: JSON.stringify({ content }),
         headers: {

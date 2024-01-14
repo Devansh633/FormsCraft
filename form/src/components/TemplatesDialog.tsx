@@ -125,7 +125,7 @@ export const TemplatesDialog = ({
               </svg>
               <p>Explore Templates</p>
             </button>
-            <button
+            {/* <button
               // onClick={() => setAIForm(true)}
               onClick={handleAIForm}
               className="text-purple-600 border-purple-600 font-semibold w-full flex justify-center items-center space-x-2 border-2 border-gray-300 px-4 py-10 rounded-md transition-all duration-75 active:scale-95 hover:border-purple-500 text-purple-500"
@@ -147,7 +147,7 @@ export const TemplatesDialog = ({
                 ></path>
               </svg>
               <p>AI Form Generator</p>
-            </button>
+            </button> */}
             <button
               onClick={createForm}
               className="w-full flex justify-center items-center space-x-2 border-2 border-gray-300 px-4 py-10 rounded-md transition-all duration-75 active:scale-95 hover:border-gray-500 text-gray-600 hover:text-black"

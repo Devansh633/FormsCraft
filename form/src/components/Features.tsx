@@ -7,27 +7,27 @@ export const Features = () => {
       title: "Drag and drop fields",
       description:
         "Drag and drop fields from left panel and you can reorder within the fields in created form",
-      path: "/drag-and-drop.MOV",
+      path: "/drag.mp4",
       color: "red",
     },
     {
       icon: "/template.svg",
       title: "Use pre made templates",
       description: "Create a form in seconds using our form templates",
-      path: "/templates.MOV",
+      path: "/template.mp4",
     },
     {
       icon: "/download.svg",
       title: "Download submissions",
       description: "Collect submissions and download them in csv format",
-      path: "/download.MOV",
+      path: "/download.mp4",
     },
-    {
-      icon: "/magic.svg",
-      title: "AI Form Generator",
-      description: "Now you can generate forms using AI in seconds",
-      path: "/form-ai.MOV",
-    },
+    // {
+    //   icon: "/magic.svg",
+    //   title: "AI Form Generator",
+    //   description: "Now you can generate forms using AI in seconds",
+    //   path: "/form-ai.MOV",
+    // },
   ];
 
   const [selectedFeature, setSelectedFeature] = useState<number>(0);

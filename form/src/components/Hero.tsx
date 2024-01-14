@@ -5,7 +5,7 @@ export const Hero = () => {
       <div className="grid grid-cols-1 gap-y-12 lg:items-center lg:grid-cols-2 xl:grid-cols-2">
         <div className="text-center xl:col-span-1 lg:text-left md:px-16 lg:px-0 xl:pr-20">
           <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight">
-            An editor that helps you create forms in seconds.
+            Create forms in seconds.
           </h1>
           <p className="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">
             Unleash the power of seamless form creation. Customize, Share, and
