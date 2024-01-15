@@ -24,7 +24,7 @@ export const Login = () => {
     const { data, error }: any = await supabaseClient.auth.signInWithOtp({
       email: email,
       options: {
-        emailRedirectTo: "https://forms-craft.vercel.app",
+        emailRedirectTo: "https://forms-craft.vercel.app/",
       },
     });
     setEmail("");

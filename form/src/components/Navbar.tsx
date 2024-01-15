@@ -90,7 +90,7 @@ export const Navbar = () => {
             </p>
           </Link>
         </div>
-        <div className="w-fit">
+        {/* <div className="w-fit">
           <Link to="/form-ai">
             <p
               className={`${
@@ -120,7 +120,7 @@ export const Navbar = () => {
               </svg>
             </p>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
