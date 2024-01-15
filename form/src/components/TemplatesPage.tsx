@@ -47,7 +47,7 @@ export const TemplatesPage = () => {
             <div className="w-[100px]">
               <button
                 onClick={() => handlePreviewTemplate(index)}
-                className="bg-black text-white text-sm font-semibold px-4 py-2 rounded-md transition-all duration-75 active:scale-95 focus:outline-none"
+                className="bg-[#ff725e] text-white text-sm font-semibold px-4 py-2 rounded-md transition-all duration-75 active:scale-95 focus:outline-none"
               >
                 Preview
               </button>
