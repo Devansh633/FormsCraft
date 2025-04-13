@@ -22,7 +22,7 @@ export const Register = () => {
     const { data, error }: any = await supabaseClient.auth.signInWithOtp({
       email: email,
       options: {
-        emailRedirectTo: "http://localhost:3000/",
+        emailRedirectTo: process.env.REACT_APP_URL,
       },
     });
     setEmail("");

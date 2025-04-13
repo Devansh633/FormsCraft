@@ -24,7 +24,7 @@ export const Login = () => {
     const { data, error }: any = await supabaseClient.auth.signInWithOtp({
       email: email,
       options: {
-        emailRedirectTo: "http://localhost:3000/",
+        emailRedirectTo: process.env.REACT_APP_URL
       },
     });
     setEmail("");
@@ -73,11 +73,11 @@ export const Login = () => {
             Use your email address to sign in.
           </p>
         </div>
-        {/* {!process.env.REACT_APP_ENV?.includes?.("prod") && (
+        {!process.env.REACT_APP_ENV?.includes?.("prod") && (
           <div className="px-4 py-6 sm:px-16">
             <Button text="Guest Login" onClick={handleLoginGuest} />
           </div>
-        )} */}
+        )}
         <form
           className="flex flex-col space-y-4 bg-gray-50 px-4 py-8 sm:px-16"
           onSubmit={handleLogin}
