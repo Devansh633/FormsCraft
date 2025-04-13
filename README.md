@@ -1,6 +1,6 @@
 # FormsCraft
 
-![FormEasy Logo](frontend/public/f.png)
+<img src="frontend/public/f.png" alt="FormEasy Logo" width="200" />
 
 FormsCraft is an intuitive web application that simplifies custom web form creation for individuals and organizations. With drag-and-drop functionality, pre-designed templates, and PDF uploads to auto-generate quizzes, it streamlines data collection and analysis, making form creation faster and more efficient without requiring coding knowledge.
 
